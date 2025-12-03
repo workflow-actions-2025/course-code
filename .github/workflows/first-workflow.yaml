@@ -6,7 +6,9 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: cmd commmand     
-     run: systeminfo
+     run: |
+      node -v
+      npm -v
 
     
     
